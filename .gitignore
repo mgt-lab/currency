@@ -1,0 +1,59 @@
+# ========================================
+# .GITIGNORE DLA PYTHONA + MAC
+# ========================================
+
+# 1. ŚRODOWISKA WIRTUALNE (NAJWAŻNIEJSZE!)
+venv/
+.env/
+env/
+.venv/
+
+# 2. ŚMIECI PYTHONA
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg
+*.egg-info/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+
+# 3. PLIKI MAC OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 4. EDYTORZY KODU
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 5. IDE + LOGI
+*.log
+logs/
+tmp/
+temp/
+
+# 6. BAZA DANYCH (jeśli używasz)
+*.db
+*.sqlite3
+
+# 7. HASŁA I KLUCZE (KRYTYCZNE!)
+.env
+config.ini
+secrets.json
+*.key
